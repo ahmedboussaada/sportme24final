@@ -1,0 +1,25 @@
+.articleContainer{
+    display:grid;
+    grid-template-rows: 20px auto 20px 200px 50px ;
+    background-color: black;
+    color: aliceblue;
+}
+.titlearticle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top:50px;
+    margin-left: 50px;
+}
+.textarticle{
+    font-size: 14px;
+    margin-top:50px;
+    margin-left: 50px;
+}
+.imgsize{
+    margin-top:50px;
+    margin-left: 50px;
+    width: 600px;
+    height: 500px;
+}
+

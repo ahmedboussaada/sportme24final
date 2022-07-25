@@ -1,0 +1,8 @@
+.logincontainer{
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+    width: 100%;
+    margin:0 auto ;
+    grid-gap: 2em;
+}

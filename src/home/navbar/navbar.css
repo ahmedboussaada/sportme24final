@@ -1,0 +1,39 @@
+.containerNavbar{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    height: 50px; 
+    margin: 0 auto;
+
+
+}
+.navbar{
+    grid-column: 1/2;
+    display: flex;
+    list-style: none ;
+    justify-content: start;
+}
+   
+
+.av {
+    margin-left: 5px;
+    color:white;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    text-decoration: none;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+
+.av.active,.av:hover{
+    background:rgb(252, 0, 0);    /* transform: scale(0.5); */
+    transition: .8s;
+    color: rgb(215, 252, 252);
+    text-decoration: none;
+}
+
+.navicons{
+    grid-column: 2/3;
+    text-decoration: none;
+
+}

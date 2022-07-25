@@ -1,0 +1,44 @@
+.cardweather{
+    background-color:#000000d0 !important;
+    color: rgb(255, 0, 0);
+    padding: 2em;
+    border-radius: 30px !important;
+    width: 100%;
+    max-width: 370px;
+    margin:1em;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnsearch{
+    margin: 0.5em;
+    border-radius: 50% !important;
+    border: none;
+    height:2em;
+    width: 6em;
+    background-color: #f5d4d42b ;
+    /* outline: none; */
+    /* background: #cf35352b; */
+    color: rgb(7, 0, 0);
+    /* transition: 0.2s ease-in-out; */
+
+
+}
+.search-bar{
+    border:none;
+    outline:none;
+    padding: 1em;
+    border-radius: 18px;
+    background: #e7d4d42b;
+    color: rgb(248, 12, 12);
+    font-family :inherit ;
+    font-size: 120%;
+    width: calc(100% -100px);
+    height: 8px;
+}
+.btnsearch:hover{
+    background:red;
+
+}

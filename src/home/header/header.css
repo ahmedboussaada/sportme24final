@@ -1,0 +1,19 @@
+.headerContainer{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    /* width: 100%;
+    height: 180px; */
+    background-color:rgb(2, 0, 0);
+}
+
+.logoHeader{
+    grid-column: 1/2;
+    width:100px;
+    height: 80px;
+}
+
+.bannerHeader{
+    grid-column: 2/3;
+    float: start;
+}
+

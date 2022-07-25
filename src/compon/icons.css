@@ -1,0 +1,43 @@
+.list  {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+.ai {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(15, 10, 10);
+    margin: 0 10px ;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #e2e2e2;
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2), 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+.ai:hover {
+    color: #999;
+    transform: translateY(-20px);
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2), 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+
+}
+.ai:before {
+content:'';
+position: absolute;
+top:10px ;
+left:10px;
+right: 10px;
+bottom: 10px;
+border-radius: 50%;
+border:2px solid rgba(0, 0, 0, 0.1)
+}
+.face:before {
+    background-color: blue;
+}

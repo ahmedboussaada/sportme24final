@@ -1,0 +1,35 @@
+.article2box
+{
+    overflow: hidden;
+    margin-top :10px;
+    border-radius: 10px;
+    /* background: #191919; */
+    position: relative;
+    cursor: pointer;
+    float: left;
+
+}
+/* .article2box::before{
+    content: '';
+    position: absolute;
+    height: 190px;
+    width:350px;
+    background: linear-gradient(#00e5ff,#b400fb);
+    animation: animate 5s linear infinite;
+    z-index: -1;
+  
+}
+@keyframes animate{
+    0% {transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+.article2box::after{
+    content: '';
+    position: absolute;
+    inset: 3px;
+    border-radius: 5px;
+
+} */
+.tagstyle{
+    text-transform: capitalize;
+}
